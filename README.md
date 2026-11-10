@@ -1,16 +1,34 @@
-# smart_home_controller
+# Smart Home Controller
 
-A new Flutter project.
+A simple Flutter application developed for **BIM493 Mobile Programming I - Assignment #2**.
+The app allows users to view and control different smart home devices.
+
+## Features
+
+- Smart Light control with power and brightness settings
+- Thermostat control with heating and temperature adjustment
+- Smart Speaker control with play/pause and volume settings
+- Device status and connection information
+- Total device count displayed using a static variable
+- Object-oriented Dart implementation:
+  - Abstract `SmartDevice` base class
+  - `SmartLight`, `Thermostat`, and `SmartSpeaker` subclasses
+  - `Connectable` interface
+  - `Schedulable` mixin
+  - Default and named constructors
+  - Inheritance and method overriding
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. Make sure Flutter is installed.
+2. Clone this repository.
+3. Run the following commands:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Students
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Baran Yavuz** - `14633721782`
