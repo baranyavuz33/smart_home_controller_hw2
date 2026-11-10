@@ -1,5 +1,7 @@
 # Smart Home Controller
 
+https://github.com/baranyavuz33/smart_home_controller_hw2
+
 A simple Flutter application developed for **BIM493 Mobile Programming I - Assignment #2**.
 The app allows users to view and control different smart home devices.
 
